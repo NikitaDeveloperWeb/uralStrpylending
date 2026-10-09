@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GigaCodeAgentSettings">
+    <option name="autoApproveEdits" value="true" />
+    <option name="autoApprovedCommands">
+      <list>
+        <Execute>
+          <option name="pattern" value="npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias &quot;@/*&quot; --use-npm --yes" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="npx create-next-app@latest uralstroy-temp --typescript --tailwind --eslint --app --src-dir --import-alias &quot;@/*&quot; --use-npm --yes" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="xcopy /E /I /Y uralstroy-temp\* ." />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="Copy-Item -Recurse -Force uralstroy-temp\* ." />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="npm install *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="New-Item -ItemType Directory -Force -Path src\components\layout, src\components\sections, src\components\ui, src\data, src\lib" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="New-Item -ItemType Directory -Force -Path src\app\api\send-contact" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="New-Item -ItemType Directory -Force -Path public\images\gallery, public\images\projects" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="npm run *" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="Copy-Item src\img\bg-header.jpg public\images\bg-header.jpg" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="$svgContent = '@@ -background-color:#1a1713; @@ -width=800; @@ -height=600; @@ -text=Каркасный+дом; @@ -font-size=48; @@ -fill=#b18e72; '" />
+        </Execute>
+        <Execute>
+          <option name="pattern" value="Copy-Item src\img\* public\images\ -Force" />
+        </Execute>
+      </list>
+    </option>
+  </component>
+</project>
